@@ -4,7 +4,7 @@
 
 <h1 align="center">FishCam</h1>
 <h3 align="center">A wildlife-streaming camera based on the Raspberry Pi HQ Camera and the HLS streaming protocol</h3>
-<p align="center"><strong>Developed by Ravi Dudhagra ([@rdudhagra](https://github.com/rdudhagra))</strong></p>
+<p align="center"><strong>Developed by Ravi Dudhagra [@rdudhagra](https://github.com/rdudhagra)</strong></p>
 
 ## About
 The new Raspberry Pi HQ Camera promised super-high-quality images and video from the Raspberry Pi; however, most tutorials and projects used slow, outdated protocols like MJPG, barely maxing out at 720p and maybe 15fps if lucky. 
