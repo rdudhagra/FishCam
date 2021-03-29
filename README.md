@@ -1,10 +1,10 @@
-<center>
+<p align="center">
 <img src="android-chrome-192x192.png" width="150px" />
+</p>
 
-# FishCam
-### A wildlife-streaming camera based on the Raspberry Pi HQ Camera and the HLS streaming protocol
-**Developed by Ravi Dudhagra ([@rdudhagra](https://github.com/rdudhagra))**
-</center>
+<h1 align="center">FishCam</h1>
+<h3 align="center">A wildlife-streaming camera based on the Raspberry Pi HQ Camera and the HLS streaming protocol</h3>
+<p align="center"><strong>Developed by Ravi Dudhagra ([@rdudhagra](https://github.com/rdudhagra))</strong></p>
 
 ## About
 The new Raspberry Pi HQ Camera promised super-high-quality images and video from the Raspberry Pi; however, most tutorials and projects used slow, outdated protocols like MJPG, barely maxing out at 720p and maybe 15fps if lucky. 
@@ -13,7 +13,7 @@ Recently, I stumbled upon a repo called [raspilive](https://github.com/jaredpete
 
 FishCam will stream the video feed from an attached camera to a website hosted on the Pi (works on desktop and mobile). Authentication will prevent unauthorized users from accessing the feed.
 
-## Getting Started
+## Instructions
 1. You will need:
     * Raspberry Pi 4B or newer
     * Adequate power supply
@@ -155,3 +155,9 @@ FishCam will stream the video feed from an attached camera to a website hosted o
         /path/to/fishcam.bash
         ```
 14. Try rebooting your Pi...if you see the website/video feed after a minute or two, you're done!
+
+## Credits
+Built upon the work from these sources:
+* https://learn.adafruit.com/raspberry-pi-hq-camera-case
+* https://github.com/jaredpetersen/raspilive
+* https://github.com/video-dev/hls.js/
